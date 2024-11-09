@@ -8,10 +8,22 @@ const config: Config = {
   ],
   theme: {
     extend: {
+     
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "myprimary" :"#FA8B02",
+        "myblackk" : "#333333",
       },
+      backgroundColor: {
+        'fim': 'rgba(255, 255, 255, 0.2)',
+      },
+      backdropFilter: {
+        'blur-sm': 'blur(5px)',
+        'blur-md': 'blur(10px)',
+      },
+      padding: {
+        '250px': '250px',
+      }
+      
     },
   },
   plugins: [],
